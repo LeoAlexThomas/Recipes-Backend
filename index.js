@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./Database/dbConfig.js";
+import recipeRoutes from "./Routers/recipeRouters.js";
 
 // Dotenv configure
 dotenv.config();
@@ -17,6 +18,9 @@ app.use(cors());
 
 // Database Connection
 connectDB();
+
+// Custom Routes
+app.use("/api/recipe", recipeRoutes);
 
 // Default route
 app.get("/", (req, res) => {
