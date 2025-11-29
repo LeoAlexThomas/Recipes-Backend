@@ -21,11 +21,11 @@ This project is a backend application for managing recipes. It allows users to c
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/LeoAlexThomas/Recipes-Backend.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Recipe Backend
+   cd Recipe-Backend
    ```
 3. Install the dependencies:
    ```bash
@@ -44,10 +44,6 @@ This project is a backend application for managing recipes. It allows users to c
 - `GET /api/recipes/:id` - Retrieve a recipe by ID
 - `PUT /api/recipes/:id` - Update a recipe by ID
 - `DELETE /api/recipes/:id` - Delete a recipe by ID
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
