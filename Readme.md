@@ -16,6 +16,7 @@ This project is a backend application for managing recipes. It allows users to c
 - Express.js
 - MongoDB (or your chosen database)
 - Mongoose (for MongoDB object modeling)
+- Postman (for API testing and documentation)
 
 ## Installation
 
@@ -37,13 +38,18 @@ This project is a backend application for managing recipes. It allows users to c
    npm start
    ```
 
-## API Endpoints
+## API Documentation
 
-- `GET /api/recipes` - Retrieve all recipes
-- `POST /api/recipes` - Create a new recipe
-- `GET /api/recipes/:id` - Retrieve a recipe by ID
-- `PUT /api/recipes/:id` - Update a recipe by ID
-- `DELETE /api/recipes/:id` - Delete a recipe by ID
+All APIs endpoints are document and tested using postman
+https://documenter.getpostman.com/view/16571110/2sB3dLUBnx
+
+## Backend Link
+
+Deployed in render: https://recipes-backend-tn1y.onrender.com
+
+## Author
+
+Leo Alex Thomas
 
 ## License
 
